@@ -1,0 +1,24 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 110, in script
+    sil2 "Я только слышал, как какой-то ребёнок в холле орал."
+Exception: Sayer 'sil2' is not defined.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 110, in script
+    sil2 "Я только слышал, как какой-то ребёнок в холле орал."
+  File "C:\Users\rozhk\OneDrive\Рабочий стол\KB\Apps\renpy-8.3.0-sdk\renpy\ast.py", line 2572, in execute
+    Say.execute(self)
+  File "C:\Users\rozhk\OneDrive\Рабочий стол\KB\Apps\renpy-8.3.0-sdk\renpy\ast.py", line 575, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "C:\Users\rozhk\OneDrive\Рабочий стол\KB\Apps\renpy-8.3.0-sdk\renpy\ast.py", line 464, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 'sil2' is not defined.
+
+Windows-10-10.0.19045 AMD64
+Ren'Py 8.3.0.24082114
+KODet 1.0
+Sun Dec 22 21:48:26 2024
