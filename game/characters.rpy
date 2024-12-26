@@ -1,12 +1,12 @@
 # Emir
 
 define em = Character("Эмир", color="#000")
-image emir = im.Scale("characters/emir.png", 768, 768)
+image emir = im.Scale("characters/emir.png", 800, 900)
 
 # Uncle
 
 define un = Character("Дядя Эмира", color="#000")
-image uncle = im.Scale("characters/uncle.png", 768, 768)
+image uncle = im.Scale("characters/uncle.png", 768, 1024)
 
 
 # Dad
@@ -24,5 +24,5 @@ image sil2 = "силуэт-2"
 
 # Дизайнер
 
-define di = Character("Дизайнер (его пока нет)", color="#000")
+define di = Character("Дизайнер", color="#000")
 image di = im.Scale("characters/designer.png", 768, 768)
